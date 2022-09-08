@@ -25,7 +25,7 @@ textures_dir="textures"
 #     block/grass.png@16x
 #
 # A scale of N makes the destination asset N times larger than the source asset,
-# multiplying its height and by N.
+# multiplying its height and width by N.
 declare -A gtk3_asset_srcs=(
     ["headerbar.png"]="block/grass_block_side.png@5x"
     ["headerbar@2x.png"]="block/grass_block_side.png@10x"
