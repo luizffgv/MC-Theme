@@ -1,0 +1,19 @@
+@use "global";
+
+.background {
+  background-image: -gtk-scaled(
+    url("assets/bg_dark.png"),
+    url("assets/bg_dark@2x.png")
+  );
+}
+
+headerbar {
+  background-image: -gtk-scaled(
+    url("assets/headerbar_dark.png"),
+    url("assets/headerbar_dark@2x.png")
+  );
+}
+
+button {
+  background-image: url("assets/button_dark.png");
+}
